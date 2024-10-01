@@ -1,38 +1,46 @@
-====================================================================================================================================================
-                                                            INTRODUCTION
-====================================================================================================================================================
 
-<!-- comment --> // this is used to make a comment in your html file and does not show up in your browser.
+=======================================================================================================================================================
+                                                                    HTML TAGS & BASICS
+=======================================================================================================================================================
 
-<!DOCTYPE html>         <!-- this is the start of every html file --> (Step 1)
-<html>                   <!-- and this is the next part --> (Step 2)
-<head>                    (Step 3)
-    <title> </title>    <!-- title tag-->  (Step 4)
-                         <!-- this tag also contains your meta data tags and scripts -->
-</head>
+ 
+<strong> </strong>            <!-- this is used to make a text bold -->
 
-<body>            (Step 5)
-                            <!-- this is where all your page contents is contained in, like image tags, forms, text, links -->
-    <h1></h1>
-    <h2></h2>                <!-- These are all different headings and sizes-->
-    <h3></h3>
-    <h4></h4>
-    <h5></h5>
-    <h6></h6>
-    <p></p>
+<em> </em>                    <!-- this is used to make a text italics -->
 
-</body>
+<small> </small>              <!-- this is used to make a text slightly smaller -->
 
-</html>
+<ul>                          <!-- this is used to make unordered list and its a wrapper for <li> tag, e.g bullet points -->
+    <li> </li>                <!-- this contains the actual list -->
+</ul>
 
-<!-- install live server extension to view your page via http protocol & you wont have to load the page every time -->
-<!-- use google chrome inspect/developer tool to view -->
+<ol>                          <!-- this is used to make ordered list and its a wrapper for <li> tag  e.g number list-->
+    <li> </li>                <!-- this contains the actual list -->
+</ol>    
+
+<div> </div>                  <!-- "division" tag helps to divide contents into sections or group them together -->
+
+<span> </span>                <!-- this is used to add css or js hooks into a part of text and can be used to surround content-->
     
-Summary
-- HTML is markup language to structure content
-- CSS is the language used to style web pages
-- How to create HTML file using VS Code as our editor
-- Seen what HTML tags are and how we use them
-- Know that the visible part of a web page goes in the < body> tag
-- Seen how to preview the HTML page in a browser
+<!--  below are self closing tags and some with attributes-->
 
+<br> or </br>                 <!-- this is used to go to a new line and does not have closing tag -->
+
+<hr> or </br>                 <!-- this is used to make a horizontal row in html and does not close -->
+
+<img src="">                  <!-- this is used to add an image and has to have the "src" attribute that points to a folder/file or image address and the "alt" attribute is used for screen readers, like a description of the image, but its just for accessibility cuz it does not display-->
+
+<a href="">                   <!-- anchor tags are used to link pages or add links to pages "href - hyperlinks reference", this attribute points to the exact link we want to go to and the link in the middle of " " or a file path to one of our pages in our local directory -->
+
+<blockquote cite="">          <!-- used to add another quote from a different/original source into your page and add the link into the " "--> 
+
+</blockquote>  
+
+<p style="">                  <!-- style attribute is used to do inline CSS in your html file and add colors/styling   -->
+
+
+Summary
+- Learnt some of the most common HTML tags in web pages
+-p, ul, Li, div, a, img, etc
+- Talked about attributes (sc, href, cite, alt etc)
+- How to create comments in an HTML file
